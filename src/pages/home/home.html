@@ -1,0 +1,52 @@
+<ion-header>
+  <!--<ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>-->
+</ion-header>
+<ion-content padding style="background-color:  #AC292D !important;" >
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <div text-center>
+          <ion-img style="background-color:  #AC292D !important" width="90" height="90" src="/assets/img/logoMonchis.png"></ion-img>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <p class="textFamily" text-center style="color:white; font-size: 20px">LOCALES</p>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+     <div text-center class="inputTextFormat">
+       <ion-input type="text" placeholder="Usuario" style="color:white; padding-left: 10px" ></ion-input>
+     </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+     <div text-center class="inputTextFormat">
+       <ion-input type="password" placeholder="Contraseña" style="color:white; padding-left: 10px"></ion-input>
+     </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+     <div text-center>
+        <button ion-button color="light" round style="color:#AC292D; margin-top: 15px;" (click)="load()">INGRESAR</button>
+     </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+     <div text-center class="textFamily">
+        <button ion-button color="light" clear>Olvidé mi contraseña?</button>
+     </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>

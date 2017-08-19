@@ -1,0 +1,119 @@
+page-pedidos {
+.backgroundPage{
+	background-image: url('../img/fondo.jpg')!important;
+	background-size: cover !important;
+}
+.cardContainer
+{
+	border-radius: 24px 24px 24px 24px;
+	-moz-border-radius: 24px 24px 24px 24px;
+	-webkit-border-radius: 24px 24px 24px 24px;
+	border: 0px solid #666666;
+	background: transparent;
+	margin: 0 auto;
+
+}
+.leftTable
+{
+	border-radius: 24px 24px 0px 0px;
+	-moz-border-radius: 24px 0px 0px 24px;
+	-webkit-border-radius: 24px 0px 0px 24px;
+	border: 0px solid #ffffff;
+	background: #ffffff;
+}
+.textTables
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.9em;
+}
+.imgClass
+{
+	background-color:  #AC292D !important;
+	width:2em;
+	height:2em;
+}
+.middleTable
+{
+	background:#AC292D;
+
+}
+.rightTable
+{
+	border-radius: 24px 24px 0px 0px;
+	-moz-border-radius: 0px 24px 24px 0px;
+	-webkit-border-radius: 0px 24px 24px 0px;
+	border: 0px solid #ffffff;
+	background:   #AC292D;
+}
+.buttonDelivery
+{
+	//background-image: url('../assets/img/delivery-button.png');
+	background-repeat:no-repeat;
+	background-color: #AC292D;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0px 24px 0px 0px;
+	-moz-border-radius: 0px 24px 0px 0px;
+	-webkit-border-radius: 0px 24px 0px 0px;
+
+}
+.buttonCash
+{
+	margin: 0px;
+	padding: 0px;
+	background-repeat:no-repeat;
+	background-color: #AC292D;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 24px 0px;
+	-webkit-border-radius: 0px 0px 24px 0px;
+}
+.textTimeBill
+{
+	padding: 0px 0px 0px 0px;
+	margin-top: 0px;
+	color: #ffffff;
+	font-size: 20px;
+}
+.TextOrden
+{
+	color: #ffffff;
+	font-size: 1em;
+	padding: 0px 0px 0px 7px;
+	margin: 0px 0px 8px 0px;
+}
+.TextFooterPage
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2em;
+	color:#AC292D;
+}
+.TextFooter
+{
+	margin: 0px;
+	padding: 0px;
+	font-size:  1.2em;
+}
+.imgFooter{
+	width: 2em;
+	height: 2em;
+}
+.TextFooter:hover
+{
+	margin: 0px;
+	padding: 0px;
+	font-size:  1.2em;
+	color:#AC292D;
+}
+.txtHeader{
+	color: #ffffff;
+	font-size: 25px;
+	margin: 0px;
+}
+.iconClass
+{
+	color: #ffffff;
+	margin: 5px 0px 0px 0px;
+}
+}

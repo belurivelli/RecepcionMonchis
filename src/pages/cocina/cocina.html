@@ -1,0 +1,171 @@
+<!--
+Generated template for the PedidosPage page.
+
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
+-->
+<ion-header>
+  <div style="background-color: black">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6 text-center>
+          <h4 style="color:white;">PEDIDOS</h4>
+        </ion-col>
+        <ion-col col-6 text-center>
+          <h4 style="color:white;">COCINA</h4>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-header>
+
+<ion-content padding style="background-image: url('assets/img/fondo.jpg')!important;">
+
+  <div style="margin: 0 auto;">
+    <div class="cardContainer">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-4 no-padding class="leftTable">
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <h6> Matías Gabriel Brizuela Cartes</h6>
+                  <hr style="background-color: black;">
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <h6>RUC: 4.365.364-8</h6>
+                  <hr style="background-color: black;">
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <h6>0991-123456</h6>
+                  <button ion-button color="secondary" icon-start style="padding-top: 0">
+                    <ion-icon name="call"></ion-icon>
+                    LLAMAR!</button>
+                    <hr style="background-color: black;">
+                  </ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>
+                    <h6>Alejandro Audivert (19 Proyectadas) 491 esquina 14 de Mayo</h6>
+                    <button ion-button color="secondary" icon-start>
+                      <ion-icon name="ios-map-outline"></ion-icon>
+                      VER MAPA</button>
+                      <hr style="background-color: black;">
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-col>
+              <ion-col col-6 no-padding class="middleTable">
+                <ion-grid>
+                  <ion-row>
+                    <ion-col col-2>
+                      <ion-img src="/assets/img/dinner.png" style="background-color:  #AC292D !important; padding-top: 5px" width="50" height="50"></ion-img>
+                    </ion-col>
+                    <ion-col>
+                      <ion-grid>
+                        <ion-row>
+                          <ion-col no-padding>
+                            <p class="TextOrden">
+                              Orden #2325
+                            </p>
+                          </ion-col>
+                        </ion-row>
+                        <ion-row>
+                          <ion-col no-padding>
+                            <p class="TextOrden">
+                              148.000Gs.
+                            </p>
+                            <hr style="background-color: white;">
+                          </ion-col>
+                        </ion-row>
+                      </ion-grid>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col col-2>
+                    </ion-col>
+                    <ion-col no-padding>
+                      <ion-grid>
+                        <ion-row>
+                          <ion-col col-auto no-padding>
+                            <ion-img src="/assets/img/time-white.png" style="background-color:  #AC292D !important;" width="30" height="30"></ion-img>
+                          </ion-col>
+                          <ion-col col-auto>
+                            <p class="textTimeBill">50' min</p>
+                          </ion-col>
+                        </ion-row>
+                      </ion-grid>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col col-2>
+                    </ion-col>
+                    <ion-col no-padding>
+                      <ion-grid>
+                        <ion-row>
+                          <ion-col col-auto no-padding>
+                            <ion-img src="/assets/img/invoice.png" style="background-color:  #AC292D !important;" width="30" height="30"></ion-img>
+                          </ion-col>
+                          <ion-col col-auto>
+                            <p class="textTimeBill">Con factura</p>
+                          </ion-col>
+                        </ion-row>
+                      </ion-grid>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col text-center>
+                      <button ion-button color="secondary" icon-start (click)="loadVistaSimplePedido()">VER ORDEN</button>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-col>
+              <ion-col class="rightTable" col-auto no-padding>
+                <ion-grid buttonCash no-padding>
+                  <ion-row>
+                    <ion-col col col-auto no-padding>
+                      <button class="buttonDelivery"> <img style="border-radius: 0px 24px 0px 0px"src="/assets/img/delivery-button.png" />
+                      </button>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col col-auto>
+                      <button class="buttonCash" ><img style="border-radius: 0px 24px 0px 0px"src="/assets/img/tc-button.png" />
+                      </button>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </div>
+    </ion-content>
+    <ion-footer style="background-color:#ffffff!important;">
+      <div class="bar bar-footer">
+        <ion-grid>
+          <ion-row>
+            <ion-col text-center (click)="loadPedidos()" >
+              <img width="50px" height="50px" src="/assets/img/dinner-red.png">
+              <p class="TextFooter">Pedidos</p>
+            </ion-col>
+            <ion-col text-center>
+              <img width="50px" height="50px" src="/assets/img/chef.png">
+              <p class="TextFooterPage">Cocina</p>
+            </ion-col>
+            <ion-col text-center>
+              <img width="50px" height="50px" src="/assets/img/graph.png">
+              <p class="TextFooter">Ventas</p>
+            </ion-col>
+            <ion-col text-center>
+              <img width="50px" height="50px" src="/assets/img/settings.png">
+              <p class="TextFooter">Configuración</p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </ion-footer>

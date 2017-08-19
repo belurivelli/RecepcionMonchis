@@ -1,0 +1,142 @@
+
+<ion-header>
+  <div style="background-color: black">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6 text-center>
+          <h4 style="color:white;">PEDIDOS</h4>
+        </ion-col>
+        <ion-col col-6 text-center>
+          <h4 style="color:white;">COCINA</h4>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-header>
+<ion-content padding style="background-image: url('assets/img/fondo.jpg')!important;">
+  <div class="cardContainer">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-1 no-padding >
+          <ion-img class="bg_img" src="/assets/img/time-red.png" ></ion-img>
+        </ion-col>
+        <ion-col col-3 no-padding>
+          <p class="txtTitles">50' min</p>
+        </ion-col>
+        <ion-col col-3 no-padding>
+          <div class="inner-content" (click)="loadDetalle()">
+            <div class="contenedorEye">
+              <ion-img class="bg_img" src="/assets/img/eye.png" ></ion-img>
+            </div>
+            <div class="contenedorText">
+              <p class="txtTitles2">VISTA DETALLE</p>
+            </div>
+          </div>
+        </ion-col>
+        <ion-col col-3 no-padding text-right>
+          <p class="txtTitles3">Total Orden</p>
+          <p class="txtTitles3">148.000 Gs</p>
+        </ion-col>
+        <ion-col col-2>
+          <ion-img class="bg_img" src="/assets/img/dinner-red-big.png" ></ion-img>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <hr style="background-color: white;">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col text-center no-padding>
+            <ion-label color="white" class="txtProductosDescripcion">Productos</ion-label>
+        </ion-col>
+        <ion-col text-center no-padding>
+            <ion-label color="white" class="txtProductosDescripcion">Observaciones</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col text-center>
+          <hr style="background-color: white; width:450px">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-1 text-right>
+          <ion-img src="/assets/img/check.png" class="imgCheck"></ion-img>
+        </ion-col>
+        <ion-col col-5 style="border-right: 2px solid #ffffff">
+          <p class="txtPedidos">2x Chesse Burger</p>
+          <ion-grid>
+            <ion-row>
+              <ion-col col-1 text-left no-padding>
+                <ion-img src="/assets/img/addition.png" class="imgCheck"></ion-img>
+              </ion-col>
+              <ion-col col-11 no-padding>
+                <p class="txtExtras"> Extra Cheesse</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-col>
+        <ion-col col-6>
+          <p class="txtObser"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col text-center>
+          <hr style="background-color: white; width:450px">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-1></ion-col>
+        <ion-col col-5>
+          <p class="txtObser">Dirección: Manuel Dominguez 2.343, casi Pitiantuta Bo. Boquerón Nro. 3403</p>
+        </ion-col>
+        <ion-col col-6 text-center>
+          <button ion-button icon-start style="background:transparent; text-size:15px">
+            <ion-icon color="secondary" name="map" ></ion-icon>Ver Mapa
+          </button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col text-center>
+          <hr style="background-color: white; width:450px">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-6 text-center>
+          <button ion-button icon-start color="secondary" style="text-size:15px" (click)="loadDelivery()">
+            <ion-icon name="megaphone"></ion-icon>PEDIR DELIVERY
+          </button>
+        </ion-col>
+        <ion-col col-6 text-center>
+          <button ion-button icon-start color="secondary" style="text-size:15px" (click)="loadQrPage()">
+            <ion-icon name="qr-scanner"></ion-icon>PASAR A DELIVERY
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+<ion-footer style="background-color:#ffffff!important;">
+  <div class="bar bar-footer">
+    <ion-grid>
+      <ion-row>
+        <ion-col text-center (click)="loadPedidos()" >
+          <img width="50px" height="50px" src="/assets/img/dinner-red.png">
+          <p class="TextFooter">Pedidos</p>
+        </ion-col>
+        <ion-col text-center (click)="loadCocina()">
+          <img width="50px" height="50px" src="/assets/img/chef.png">
+          <p class="TextFooterPage">Cocina</p>
+        </ion-col>
+        <ion-col text-center>
+          <img width="50px" height="50px" src="/assets/img/graph.png">
+          <p class="TextFooter">Ventas</p>
+        </ion-col>
+        <ion-col text-center>
+          <img width="50px" height="50px" src="/assets/img/settings.png">
+          <p class="TextFooter">Configuración</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-footer>
