@@ -1,0 +1,8 @@
+{
+  "name": "RecepcionMonchis",
+  "app_id": "2ef10a21",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
