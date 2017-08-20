@@ -1,0 +1,87 @@
+page-pedidos-ik {
+  background-color: red;
+}
+
+.main-container{
+  background-color: white;
+}
+
+.pedido-container{
+  width: 100%;
+  min-height: 25%;
+  background-image: url('../assets/img/red-background.png');
+  border-radius: 7px;
+  border: 1px solid #969696;
+  background-size: cover;
+  margin-bottom: 30px;
+  position: relative;
+
+  .left-container{
+    width: 30%;
+    height: 150px;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    //border: 1px solid black;
+    padding: 5px;
+
+    p{
+      font-size: 0.6em;
+      font-weight: bold;
+      margin: 0;
+      margin-top: 5px;
+      padding-bottom: 3px;
+    }
+
+    .line{
+      width: 100%;
+      height: 1px;
+      background-color: #969696;
+    }
+
+    .button{
+      width: 100%;
+      height: 25px;
+      background-color: #92c22d;
+      position: relative;
+      border-radius: 3px;
+
+      p {
+        color: white;
+        position: absolute;
+        left: 26px;
+        top: 4px;
+        font-size: 0.7em;
+      }
+
+      img {
+        position: absolute;
+        left: 10px;
+        top: 7px;
+        width: 12px;
+      }
+    }
+  }
+
+  .patch-top{
+    position: absolute;
+    z-index: 20;
+    width: 65px;
+    height: 53px;
+    right: 0px;
+    top: 0px;
+    background-image: url('../assets/img/delivery-patch.png');
+    background-size: cover;
+  }
+
+  .patch-bottom{
+    position: absolute;
+    width: 65px;
+    z-index: 20;
+    height: 59px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url('../assets/img/tarjeta-patch.png');
+    background-size: cover;
+  }
+}

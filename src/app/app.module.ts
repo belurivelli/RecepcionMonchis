@@ -8,6 +8,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { PedidosPage } from '../pages/pedidos/pedidos';
+import { PedidosIkPage } from '../pages/pedidos-ik/pedidos-ik';
 import { CocinaPage } from '../pages/cocina/cocina';
 import { VistaSimplePedidoPage } from '../pages/vista-simple-pedido/vista-simple-pedido';
 import { DeliveryPage } from '../pages/delivery/delivery';
@@ -31,6 +32,7 @@ const cloudSettings: CloudSettings = {
     ContactPage,
     HomePage,
     PedidosPage,
+    PedidosIkPage,
     CocinaPage,
     VistaSimplePedidoPage,
     DeliveryPage,
@@ -49,6 +51,7 @@ const cloudSettings: CloudSettings = {
     ContactPage,
     HomePage,
     PedidosPage,
+    PedidosIkPage,
     CocinaPage,
     VistaSimplePedidoPage,
     DeliveryPage,

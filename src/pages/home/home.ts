@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { PedidosPage } from '../pedidos/pedidos';
+import { PedidosIkPage } from '../pedidos-ik/pedidos-ik';
 
 @Component({
   selector: 'page-home',
@@ -12,7 +13,7 @@ export class HomePage {
 
   }
   load(){
-  this.navCtrl.push(PedidosPage,{
+  this.navCtrl.push(PedidosIkPage,{
 
   })
   }
