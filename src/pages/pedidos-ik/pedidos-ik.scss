@@ -29,6 +29,7 @@ page-pedidos-ik {
 
     .left-container{
       width: 30%;
+      display: inline-block;
       min-height: 180px;
       background-color: white;
       border-top-left-radius: 7px;
@@ -73,6 +74,85 @@ page-pedidos-ik {
           width: 12px;
         }
       }
+    }
+
+
+    .right-container{
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+      width: 68%;
+      min-height: 180px;
+      position: relative;
+
+      .dinner-icon{
+        width: 25px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: top;
+      }
+
+      .top-container{
+        margin-top: 15px;
+        margin-left: 15px;
+
+        .line{
+          width: 100%;
+          width: 75%;
+          height: 2px;
+          margin-top: 5px;
+          background-color: white;
+        }
+
+        .top-text-container{
+          display: inline-block;
+          width: 80%;
+        }
+
+        p{
+          color: white;
+          font-weight: bold;
+          margin: 0;
+        }
+
+      }
+
+      .content-list{
+        margin-left: 25px;
+        margin-top: 10px;
+
+        img{
+          width: 15px;
+        }
+
+        span{
+          color: white;
+          vertical-align: top;
+          margin-left: 10px;
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+
+      }
+
+      .button{
+        width: 65%;
+        height: 25px;
+        background-color: #92c22d;
+        border-radius: 3px;
+        margin-left: 25px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        p {
+          color: white;
+          line-height: 7px;
+          font-size: 0.7em;
+          font-weight: bold;
+        }
+
+      }
+
     }
 
     .patch-top{
